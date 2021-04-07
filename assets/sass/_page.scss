@@ -1,0 +1,10 @@
+.page {
+    &__inner {
+        background-image: url("#{$img-src}shutterstock_1485981242.png");
+        background-repeat: none;
+        background-size: cover;
+        content: " ";
+        height: 100vh;
+        width: 100%;
+    }
+}
