@@ -5,6 +5,9 @@
 @import "helpers/mixins";
 @import "helpers/normalize";
 
+@import "shared/text";
+@import "shared/buttons";
+
 @import "page";
 
 @import "sections/hero";

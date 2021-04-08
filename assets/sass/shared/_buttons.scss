@@ -1,0 +1,17 @@
+.btn {
+    @include d-flex;
+    @include d-flex-align-center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    height: 45px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    &_light {
+        background-color: $white;
+        color: $primary-color;
+    }
+    &_rounded {
+        border-radius: 50px;
+    }
+}

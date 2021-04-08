@@ -14,24 +14,12 @@
         @mixin screen-md {
             flex-wrap: wrap;
         }
-        color: rgba($white,.7);
         font-family: $font-family;
         line-height: 1.5;
         margin: 0 auto;
         max-width: 1024px;
     }
     &__button {
-        @include d-flex;
-        @include d-flex-align-center;
-        background-color: $white;
-        border-radius: 50px;
-        color: $primary-color;
-        font-size: 1.5rem;
-        font-weight: 700;
-        height: 45px;
-        text-align: center;
-        text-decoration: none;
-        text-transform: uppercase;
         width: 450px;
     }
     &__text {
